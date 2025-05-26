@@ -1,4 +1,4 @@
-const { get_bar_via_tsify, get_bar_without_tsify } = require('./pkg/wasm_bindgen_leak_repro.js');
+const { get_bar_via_tsify, get_bar_without_tsify } = require('./pkg/tsify_leak_repro.js');
 
 
 for (let j = 0; j < 100_000; j++) {

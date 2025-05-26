@@ -126,6 +126,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "tsify-leak-repro"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde-wasm-bindgen",
+ "tsify",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "tsify-macros"
 version = "0.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -167,16 +177,6 @@ dependencies = [
  "quote",
  "syn",
  "wasm-bindgen-shared",
-]
-
-[[package]]
-name = "wasm-bindgen-leak-repro"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde-wasm-bindgen",
- "tsify",
- "wasm-bindgen",
 ]
 
 [[package]]

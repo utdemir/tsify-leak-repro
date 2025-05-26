@@ -1,5 +1,5 @@
 [package]
-name = "wasm-bindgen-leak-repro"
+name = "tsify-leak-repro"
 version = "0.1.0"
 edition = "2024"
 
