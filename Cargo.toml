@@ -1,0 +1,19 @@
+[package]
+name = "wasm-bindgen-leak-repro"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+serde-wasm-bindgen = "0.6.5"
+tsify = { version = "0.5.5", default-features = false, features = [
+	"wasm-bindgen",
+	"js",
+] }
+wasm-bindgen = { version = "0.2.100" }
+
+[workspace.metadata.bin]
+wasm-pack = { version = "0.13.1" }
