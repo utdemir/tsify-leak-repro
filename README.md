@@ -1,4 +1,4 @@
-This reproduces the memory leak that occurs when using `tsify`'s `wasm-bindgen` integration.
+This reproduces the memory leak that occurs when using `tsify`'s `wasm-bindgen` integration. Upstream issue: https://github.com/madonoharu/tsify/issues/65
 
 ```
 tsify-leak-repro $ ./repro.sh
